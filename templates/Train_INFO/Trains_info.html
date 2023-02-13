@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Train Details Page</title>
+    <style>
+        body{
+        text-align:center;
+        padding:150px;
+        }
+        h1{
+        border:2px solid white;
+        border-left-width:10px;
+        border-right=width:10px;
+        }
+    </style>
+
+    <title>Train_Info</title>
+  </head>
+  <body>
+    <h1>Enter the Train details below:</h1>
+    <br><hr>
+    <form class="" action="index.html" method="post">
+      <br>
+      TrainID: <input type="text" name="" value="">
+      <br>
+      Train Name:<input type="text" name="" value="">
+      <br>
+      Origin City:<input type="text" name="" value="">
+      <br>
+      Destination City:<input type="text" name="" value="">
+      <br>
+      Departure Time:<input type="text" name="" value="">
+      <br>
+      Arrival Time:<input type="text" name="" value="">
+
+      <br>
+      <button type="button" name="button">Submit</button>
+    </form>
+    <br>
+    <hr>
+
+  <form class="" action="index.html" method="Post">
+    <h2>The below form is django forms</h2>
+
+    {{form_dict.as_p}}
+    {%csrf_token%}
+    <input type="submit" value="Submit">
+
+  </form>
+  </body>
+
+
+</html>
